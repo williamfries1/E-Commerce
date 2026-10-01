@@ -256,6 +256,7 @@ button:active {
 
 .highlight__wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .highlight {
@@ -418,13 +419,15 @@ footer {
 }
 
 @media (max-width: 550px) {
+  .btn__menu {
+    display: block;
+  }
+  
   .nav__links {
     display: none;
   }
 
-  .btn__menu {
-    display: block;
-  }
+  
 
   .highlight {
     width: 100%

@@ -12,6 +12,12 @@ body {
   overflow-x: hidden;
 }
 
+.row__column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* NAVIGATION BAR */
 
 nav {
@@ -274,4 +280,14 @@ FEATURES
   text-decoration: line-through;
   padding-right: 6px;
   color: #bfbfbf;
+}
+
+/*
+
+EXPLORE
+
+*/
+
+#explore {
+  background-color: rgba(115, 66, 214, 0.1);
 }
